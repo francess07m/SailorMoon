@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    /* this is so that there isnt a white margin around the page */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 30px; /* makes text more legible 
+    I think its the space betwen the lines*/
+}
+header{
+    background-color: #ffe6e2;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 50px;
+    /* the padding is what added the space so that image is not touching 
+    the top and bottom of head... MADE THE HEADER BIGGER!!*/
+}
+h1, h2 { /* the comma here means and    WHEN ADDIND MULTIPLE
+    OPTIONS ADD A COMMA*/
+    font-family: 'Comic Neue', cursive;
+    text-transform: uppercase;
+}
+header h1{
+    color: white;
+    font-size: 50px;
+    
+}
+header img{
+    border-radius: 180px; /*this is to made a circle on the image*/
+    width: 320px;
+    border: 10px solid #7796ff;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto; /* shotcut to align everything to the center*/
+    padding: 20px;
+}
+main img{ /* the max width is set to match the max width added 
+    to the main above*/
+    max-width: 100%;
+    
+}
+h2{
+    font-size: 30px;
+    color: #7796ff;
+    margin: 40px 0 10px;
+}
+a{
+    color: #ff565d;
+}
+a:hover{
+   color: #ffcec7;
+}
+footer{
+    background-color: #7796ff;
+    text-align: center;
+    color: white;
+    font-family: 'Comic Neue', cursive;
+    padding: 50px;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    opacity: .5;
+    background-color: transparent;
+}
+p.caption{
+    color: #999999;
+    font-style: italic;
+    margin-top: 0;
+}
+
